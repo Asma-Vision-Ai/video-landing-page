@@ -379,11 +379,11 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Why Choose OpsGlass */}
+      {/* Why Choose Sightline */}
       <section className="py-24 px-4 bg-slate-50">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Why Choose OpsGlass Datasets</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Why Choose Sightline Datasets</h2>
             <p className="text-lg text-muted-foreground">
               Purpose-built for researchers and enterprises who demand quality and reliability.
             </p>
@@ -540,8 +540,8 @@ export default function Index() {
             </p>
             <p className="font-semibold text-foreground">Questions about pricing?</p>
             <p className="text-muted-foreground mb-4">Contact our team at</p>
-            <a href="mailto:sales@opsglass.io" className="text-primary font-medium hover:underline">
-              sales@opsglass.io
+            <a href="mailto:help@sightline.in" className="text-primary font-medium hover:underline">
+              help@sightline.in
             </a>
           </div>
         </div>
@@ -554,7 +554,7 @@ export default function Index() {
             Power Your Models with Real Human Perspective
           </h2>
           <p className="text-xl text-muted-foreground mb-12">
-            Join leading AI research teams and enterprises using OpsGlass egocentric datasets to build the next generation of intelligent systems.
+            Join leading AI research teams and enterprises using Sightline egocentric datasets to build the next generation of intelligent systems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-blue-600 text-base h-12 px-8">

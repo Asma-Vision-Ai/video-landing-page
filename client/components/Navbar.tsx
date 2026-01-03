@@ -20,9 +20,12 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 font-bold text-xl text-primary">
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold">OG</span>
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="8" stroke="white" strokeWidth="2"/>
+              <circle cx="12" cy="12" r="3" fill="white"/>
+            </svg>
           </div>
-          <span className="hidden sm:inline">OpsGlass</span>
+          <span className="hidden sm:inline">Sightline</span>
         </Link>
 
         {/* Desktop Navigation */}

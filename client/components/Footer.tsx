@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Phone, Github, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -10,9 +10,12 @@ export default function Footer() {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">OG</span>
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="8" stroke="white" strokeWidth="2"/>
+                  <circle cx="12" cy="12" r="3" fill="white"/>
+                </svg>
               </div>
-              <h3 className="font-bold text-lg">OpsGlass</h3>
+              <h3 className="font-bold text-lg">Sightline</h3>
             </div>
             <p className="text-slate-400 text-sm">
               High-quality egocentric video data for training intelligent systems.
@@ -105,13 +108,20 @@ export default function Footer() {
         <div className="border-t border-slate-800 py-8">
           {/* Contact and Social */}
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
               <a
-                href="mailto:contact@opsglass.io"
+                href="mailto:help@sightline.in"
                 className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm"
               >
                 <Mail size={18} />
-                contact@opsglass.io
+                help@sightline.in
+              </a>
+              <a
+                href="tel:+917260948737"
+                className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm"
+              >
+                <Phone size={18} />
+                +91 72609 48737
               </a>
             </div>
             <div className="flex items-center gap-4">
@@ -135,7 +145,7 @@ export default function Footer() {
           {/* Copyright */}
           <div className="mt-8 pt-8 border-t border-slate-800">
             <p className="text-slate-500 text-sm text-center">
-              © 2024 OpsGlass Datasets. All rights reserved. Data for the next generation of AI.
+              © 2025 Sightline. All rights reserved. Data for the next generation of AI.
             </p>
           </div>
         </div>
