@@ -110,11 +110,11 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-6">
               <a
-                href="mailto:help@sightline.in"
+                href="mailto:OpsGlass.ai@gmail.com"
                 className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm"
               >
                 <Mail size={18} />
-                help@sightline.in
+                OpsGlass.ai@gmail.com
               </a>
               <a
                 href="tel:+917260948737"
