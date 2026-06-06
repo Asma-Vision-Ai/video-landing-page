@@ -116,13 +116,13 @@ export default function Footer() {
                 <Mail size={18} />
                 OpsGlass.ai@gmail.com
               </a>
-              <a
+              {/* <a
                 href="tel:+917260948737"
                 className="flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm"
               >
                 <Phone size={18} />
                 +91 72609 48737
-              </a>
+              </a> */}
             </div>
             <div className="flex items-center gap-4">
               <a
